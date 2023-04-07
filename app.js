@@ -10,7 +10,7 @@ const open = async () => {
     const contents = await file.text();
     contentTextArea.value = contents;
 }
-
+//https://translated.turbopages.org/proxy_u/en-ru.ru.c69596aa-642ff5db-786f398b-74722d776562/https/www.geeksforgeeks.org/simple-text-editor-using-file-system-access-api/
 const save = async content => {
     try {
         const handle = await window.showSaveFilePicker({
