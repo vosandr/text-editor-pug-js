@@ -1,15 +1,13 @@
 doctype html
 html 
     head 
-        link(rel="stylesheet" href="style.css")
+        style
+            include ./style.css
     body
         .container
-            <!--Text Area -->
             textarea#content(placeholder="Lets Write ")
-            <!--Buttons -->
             .buttons
-                <!--To open -->
                 button#openfile Open
-                <!-- To save-->
                 button#savefile Save
-    script(src="script.js")
+    script
+        include ./script.js
